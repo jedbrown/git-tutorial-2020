@@ -25,9 +25,28 @@ services.
 * [gitworkflows(7)](https://git-scm.com/docs/gitworkflows)
 ![](https://cucs-hpsc.github.io/fall2019/git/simplified-gitworkflows7.png)
 
-## Groups
+## Group activity
 
-### Sample Group
-* Alice
-* Bob
-* R2D2
+* Clone this repository
+* Pick some neighbors and choose a group name
+* Add a line to `groups.csv` in this repository
+* Clone my repository
+
+    git clone https://github.com/jedbrown/git-tutorial-2020
+
+* Fork my repository and add your fork as a remote
+
+    git remote add yourusername https://yourusername@github.com/yourusername/git-tutorial-2020
+
+* Edit `groups.csv` to add yourself (with your group name)
+* Commit your changes
+
+    git add groups.csv
+    git commit
+
+* Push to your repository
+
+    git push yourusername master
+    
+* Nominate one of your group members as "integrator" and make a pull
+  request to their repository.
