@@ -13,6 +13,32 @@ and revising pull requests, we will also explore integrator roles such
 as reviewing, merging, and release/branch management, as well as related
 services.
 
+## Group activity
+
+* Clone my repository
+
+    git clone https://github.com/jedbrown/git-tutorial-2020
+
+* Fork my repository and add your fork as a remote
+
+    git remote add yourusername https://yourusername@github.com/yourusername/git-tutorial-2020
+
+* Pick some neighbors and choose a group name
+
+* Edit `groups.csv` to add yourself (with your group name)
+
+* Commit your changes
+
+    git add groups.csv
+    git commit
+
+* Push to your repository
+
+    git push yourusername master
+    
+* Nominate one of your group members as "integrator" and make a pull
+  request to their repository.
+
 ## Resources
 
 * [Official site](https://git-scm.com/)
@@ -24,10 +50,3 @@ services.
 * [Git for Computer Scientists](https://eagain.net/articles/git-for-computer-scientists/)
 * [gitworkflows(7)](https://git-scm.com/docs/gitworkflows)
 ![](https://cucs-hpsc.github.io/fall2019/git/simplified-gitworkflows7.png)
-
-## Groups
-
-### Sample Group
-* Alice
-* Bob
-* R2D2
